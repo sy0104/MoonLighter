@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.View">
+      <UniqueIdentifier>{f97c8e94-b1be-4986-9c2d-c3904de2b731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MainFrame">
+      <UniqueIdentifier>{ec83ee53-fc25-4c24-b33c-bb442a567163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Doc">
+      <UniqueIdentifier>{ec4e9769-0dde-49c1-baf3-88d7a09fc650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Graphic_Dev">
+      <UniqueIdentifier>{f8dc2528-734b-4114-919d-0021330c3328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Texture">
+      <UniqueIdentifier>{13cd7d82-8020-4dbb-a520-ca4fa1a9c424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Terrain">
+      <UniqueIdentifier>{054a3085-9e5a-4a0f-b27a-d5371278181f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.FileInfo">
+      <UniqueIdentifier>{34bb5080-e3c1-472a-971a-f38aaadb1501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{a5b3a3c3-4304-435e-a265-fe15f5bd54d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager">
+      <UniqueIdentifier>{fb163efa-086d-4bf1-ae49-e34ce02544d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Texture\01.SingleTex">
+      <UniqueIdentifier>{91f37ea1-f04d-460c-b46f-41825d42d89b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Texture\02.MultiTex">
+      <UniqueIdentifier>{fbf85918-80b6-4bbd-90f6-06205dcd7803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\01.TextureMgr">
+      <UniqueIdentifier>{64bd65c5-1499-49f5-be13-9149516519e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.View\01.FormView">
+      <UniqueIdentifier>{f3437c56-f6e1-4c03-a7a7-2f1e64778be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.View\02.MiniView">
+      <UniqueIdentifier>{cfade02b-5a7a-45da-93ce-fecf28a852af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.View\03.MapTool">
+      <UniqueIdentifier>{da6b7e9c-c625-499e-bc3d-070fae785000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.View\04.Extract Path">
+      <UniqueIdentifier>{04ff4630-5b15-4197-b7c0-6b7e175b8636}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>01.MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="MoonLighter_ToolView.h">
+      <Filter>00.View</Filter>
+    </ClInclude>
+    <ClInclude Include="MoonLighter_ToolDoc.h">
+      <Filter>02.Doc</Filter>
+    </ClInclude>
+    <ClInclude Include="MoonLighter_Tool.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic_Device.h">
+      <Filter>03.Graphic_Dev</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>04.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
+      <Filter>06.FileInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTex.h">
+      <Filter>04.Texture\01.SingleTex</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTex.h">
+      <Filter>04.Texture\02.MultiTex</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>98.Manager\01.TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFormView.h">
+      <Filter>00.View\01.FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniView.h">
+      <Filter>00.View\02.MiniView</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractPath.h">
+      <Filter>00.View\04.Extract Path</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>01.MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="MoonLighter_ToolView.cpp">
+      <Filter>00.View</Filter>
+    </ClCompile>
+    <ClCompile Include="MoonLighter_ToolDoc.cpp">
+      <Filter>02.Doc</Filter>
+    </ClCompile>
+    <ClCompile Include="MoonLighter_Tool.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic_Device.cpp">
+      <Filter>03.Graphic_Dev</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>04.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>06.FileInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTex.cpp">
+      <Filter>04.Texture\01.SingleTex</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTex.cpp">
+      <Filter>04.Texture\02.MultiTex</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>98.Manager\01.TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFormView.cpp">
+      <Filter>00.View\01.FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniView.cpp">
+      <Filter>00.View\02.MiniView</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractPath.cpp">
+      <Filter>00.View\04.Extract Path</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MoonLighter_Tool.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\MoonLighter_ToolDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MoonLighter_Tool.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MoonLighter_Tool.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

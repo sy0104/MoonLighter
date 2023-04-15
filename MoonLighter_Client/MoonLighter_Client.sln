@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MoonLighter_Client", "MoonLighter_Client\MoonLighter_Client.vcxproj", "{8C96169D-4A98-4C09-B20A-AC0FDDF19D66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Headers", "Headers", "{EA3285EB-9363-4EC7-BCBE-EAD442512115}"
+	ProjectSection(SolutionItems) = preProject
+		Headers\Include.h = Headers\Include.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Include", "Include", "{343546BC-4346-4546-95F6-F3E7E0C8A69A}"
+	ProjectSection(SolutionItems) = preProject
+		Headers\AbstractFactory.h = Headers\AbstractFactory.h
+		Headers\Define.h = Headers\Define.h
+		Headers\Enum.h = Headers\Enum.h
+		Headers\Extern.h = Headers\Extern.h
+		Headers\Function.h = Headers\Function.h
+		Headers\Struct.h = Headers\Struct.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MoonLighter_Tool", "MoonLighter_Tool\MoonLighter_Tool.vcxproj", "{B72B7E98-D82F-4ECA-AFF3-1D34F17ADDDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C96169D-4A98-4C09-B20A-AC0FDDF19D66}.Debug|x64.ActiveCfg = Debug|x64
+		{8C96169D-4A98-4C09-B20A-AC0FDDF19D66}.Debug|x64.Build.0 = Debug|x64
+		{8C96169D-4A98-4C09-B20A-AC0FDDF19D66}.Debug|x86.ActiveCfg = Debug|Win32
+		{8C96169D-4A98-4C09-B20A-AC0FDDF19D66}.Debug|x86.Build.0 = Debug|Win32
+		{8C96169D-4A98-4C09-B20A-AC0FDDF19D66}.Release|x64.ActiveCfg = Release|x64
+		{8C96169D-4A98-4C09-B20A-AC0FDDF19D66}.Release|x64.Build.0 = Release|x64
+		{8C96169D-4A98-4C09-B20A-AC0FDDF19D66}.Release|x86.ActiveCfg = Release|Win32
+		{8C96169D-4A98-4C09-B20A-AC0FDDF19D66}.Release|x86.Build.0 = Release|Win32
+		{B72B7E98-D82F-4ECA-AFF3-1D34F17ADDDD}.Debug|x64.ActiveCfg = Debug|x64
+		{B72B7E98-D82F-4ECA-AFF3-1D34F17ADDDD}.Debug|x64.Build.0 = Debug|x64
+		{B72B7E98-D82F-4ECA-AFF3-1D34F17ADDDD}.Debug|x86.ActiveCfg = Debug|Win32
+		{B72B7E98-D82F-4ECA-AFF3-1D34F17ADDDD}.Debug|x86.Build.0 = Debug|Win32
+		{B72B7E98-D82F-4ECA-AFF3-1D34F17ADDDD}.Release|x64.ActiveCfg = Release|x64
+		{B72B7E98-D82F-4ECA-AFF3-1D34F17ADDDD}.Release|x64.Build.0 = Release|x64
+		{B72B7E98-D82F-4ECA-AFF3-1D34F17ADDDD}.Release|x86.ActiveCfg = Release|Win32
+		{B72B7E98-D82F-4ECA-AFF3-1D34F17ADDDD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{343546BC-4346-4546-95F6-F3E7E0C8A69A} = {EA3285EB-9363-4EC7-BCBE-EAD442512115}
+	EndGlobalSection
+EndGlobal

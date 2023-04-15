@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8C96169D-4A98-4C09-B20A-AC0FDDF19D66}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MoonLighter_Client</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Arrow.h" />
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="Beam.h" />
+    <ClInclude Include="BigSword.h" />
+    <ClInclude Include="BodyBeam.h" />
+    <ClInclude Include="BossHp.h" />
+    <ClInclude Include="BossHpBar.h" />
+    <ClInclude Include="Bow.h" />
+    <ClInclude Include="Chest.h" />
+    <ClInclude Include="CollisionMgr.h" />
+    <ClInclude Include="DeathParticle.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="ElectricPart.h" />
+    <ClInclude Include="ElectricRoom.h" />
+    <ClInclude Include="ExtraParticle.h" />
+    <ClInclude Include="FrameMgr.h" />
+    <ClInclude Include="GolemKing.h" />
+    <ClInclude Include="Graphic_Device.h" />
+    <ClInclude Include="Inven.h" />
+    <ClInclude Include="InvenUI.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="KeyMgr.h" />
+    <ClInclude Include="Logo.h" />
+    <ClInclude Include="MainApp.h" />
+    <ClInclude Include="MainMap.h" />
+    <ClInclude Include="MoonLighter_Client.h" />
+    <ClInclude Include="MultiTex.h" />
+    <ClInclude Include="Npc.h" />
+    <ClInclude Include="Obj.h" />
+    <ClInclude Include="ObjMgr.h" />
+    <ClInclude Include="OutBeam.h" />
+    <ClInclude Include="ParticleBody.h" />
+    <ClInclude Include="ParticleHead.h" />
+    <ClInclude Include="ParticleSeed.h" />
+    <ClInclude Include="Particle_Bullet.h" />
+    <ClInclude Include="Pillar.h" />
+    <ClInclude Include="Plant.h" />
+    <ClInclude Include="PlantBody.h" />
+    <ClInclude Include="PlantExtra.h" />
+    <ClInclude Include="PlantHead.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerHp.h" />
+    <ClInclude Include="PlayerHpBar.h" />
+    <ClInclude Include="Potal.h" />
+    <ClInclude Include="PreStage.h" />
+    <ClInclude Include="PriceDown.h" />
+    <ClInclude Include="PriceUp.h" />
+    <ClInclude Include="Punch.h" />
+    <ClInclude Include="Reaction.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Rock.h" />
+    <ClInclude Include="Root.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneMgr.h" />
+    <ClInclude Include="ScrollMgr.h" />
+    <ClInclude Include="Sell.h" />
+    <ClInclude Include="Shadow.h" />
+    <ClInclude Include="Shop.h" />
+    <ClInclude Include="ShopTable.h" />
+    <ClInclude Include="Showcase.h" />
+    <ClInclude Include="SingleTex.h" />
+    <ClInclude Include="Slime.h" />
+    <ClInclude Include="SoundMgr.h" />
+    <ClInclude Include="Spear.h" />
+    <ClInclude Include="SpeechBubble.h" />
+    <ClInclude Include="Stage1.h" />
+    <ClInclude Include="Stage2.h" />
+    <ClInclude Include="Stage3.h" />
+    <ClInclude Include="StagePotal.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TechGuardian.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureMgr.h" />
+    <ClInclude Include="TimeMgr.h" />
+    <ClInclude Include="Town.h" />
+    <ClInclude Include="TownPlayer.h" />
+    <ClInclude Include="Ui.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Arrow.cpp" />
+    <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="Beam.cpp" />
+    <ClCompile Include="BigSword.cpp" />
+    <ClCompile Include="BodyBeam.cpp" />
+    <ClCompile Include="BossHp.cpp" />
+    <ClCompile Include="BossHpBar.cpp" />
+    <ClCompile Include="Bow.cpp" />
+    <ClCompile Include="Chest.cpp" />
+    <ClCompile Include="CollisionMgr.cpp" />
+    <ClCompile Include="DeathParticle.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="ElectricPart.cpp" />
+    <ClCompile Include="ElectricRoom.cpp" />
+    <ClCompile Include="ExtraParticle.cpp" />
+    <ClCompile Include="FrameMgr.cpp" />
+    <ClCompile Include="GolemKing.cpp" />
+    <ClCompile Include="Graphic_Device.cpp" />
+    <ClCompile Include="Inven.cpp" />
+    <ClCompile Include="InvenUI.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="KeyMgr.cpp" />
+    <ClCompile Include="Logo.cpp" />
+    <ClCompile Include="MainApp.cpp" />
+    <ClCompile Include="MainMap.cpp" />
+    <ClCompile Include="MoonLighter_Client.cpp" />
+    <ClCompile Include="MultiTex.cpp" />
+    <ClCompile Include="Npc.cpp" />
+    <ClCompile Include="Obj.cpp" />
+    <ClCompile Include="ObjMgr.cpp" />
+    <ClCompile Include="OutBeam.cpp" />
+    <ClCompile Include="ParticleBody.cpp" />
+    <ClCompile Include="ParticleHead.cpp" />
+    <ClCompile Include="ParticleSeed.cpp" />
+    <ClCompile Include="Particle_Bullet.cpp" />
+    <ClCompile Include="Pillar.cpp" />
+    <ClCompile Include="Plant.cpp" />
+    <ClCompile Include="PlantBody.cpp" />
+    <ClCompile Include="PlantExtra.cpp" />
+    <ClCompile Include="PlantHead.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerHp.cpp" />
+    <ClCompile Include="PlayerHpBar.cpp" />
+    <ClCompile Include="Potal.cpp" />
+    <ClCompile Include="PreStage.cpp" />
+    <ClCompile Include="PriceDown.cpp" />
+    <ClCompile Include="PriceUp.cpp" />
+    <ClCompile Include="Punch.cpp" />
+    <ClCompile Include="Reaction.cpp" />
+    <ClCompile Include="Rock.cpp" />
+    <ClCompile Include="Root.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneMgr.cpp" />
+    <ClCompile Include="ScrollMgr.cpp" />
+    <ClCompile Include="Sell.cpp" />
+    <ClCompile Include="Shadow.cpp" />
+    <ClCompile Include="Shop.cpp" />
+    <ClCompile Include="ShopTable.cpp" />
+    <ClCompile Include="Showcase.cpp" />
+    <ClCompile Include="SingleTex.cpp" />
+    <ClCompile Include="Slime.cpp" />
+    <ClCompile Include="SoundMgr.cpp" />
+    <ClCompile Include="Spear.cpp" />
+    <ClCompile Include="SpeechBubble.cpp" />
+    <ClCompile Include="Stage1.cpp" />
+    <ClCompile Include="Stage2.cpp" />
+    <ClCompile Include="Stage3.cpp" />
+    <ClCompile Include="StagePotal.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TechGuardian.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureMgr.cpp" />
+    <ClCompile Include="TimeMgr.cpp" />
+    <ClCompile Include="Town.cpp" />
+    <ClCompile Include="TownPlayer.cpp" />
+    <ClCompile Include="Ui.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MoonLighter_Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="MoonLighter_Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
